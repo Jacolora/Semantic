@@ -1,0 +1,66 @@
+{
+  "presentationTable" : {
+    "name" : "Office Regions",
+    "description" : "This folder contains additional Office attributes like Office Region, Country, State, City and so on.",
+    "tags" : [ "Project:Samp Relational" ],
+    "alternateNames" : [ "Cust Regions#1", "Offices Regions" ],
+    "presentationColumns" : [ {
+      "name" : "D50  Region",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D50  Region"
+    }, {
+      "name" : "D51  Area",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D51  Area"
+    }, {
+      "name" : "D52  Country Name",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D52  Country Name"
+    }, {
+      "name" : "D53  State Province",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D53  State Province"
+    }, {
+      "name" : "D54  State Code",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D54  State Code"
+    }, {
+      "name" : "D55  City",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D55  City"
+    }, {
+      "name" : "D56  Postal Code",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D56  Postal Code"
+    }, {
+      "name" : "D57  Address Line 1",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D57  Address Line 1"
+    }, {
+      "name" : "D58  Address Line 2",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D58  Address Line 2"
+    }, {
+      "name" : "D60 Full Address",
+      "tags" : [ "Project:Samp Relational" ],
+      "sourceLogicalColumn" : "logicalColumn:Sample App.Offices.D60 Full Address"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:BIAdministrator",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIAuthor",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BIConsumer",
+      "access" : "READ"
+    }, {
+      "accessor" : "role:BISystem",
+      "access" : "READ"
+    } ],
+    "localization" : {
+      "localizationKey" : "Office Regions",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_A_-_Sample_Sales_Cust_Regions)"
+    }
+  }
+}

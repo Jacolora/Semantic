@@ -1,0 +1,9 @@
+{
+  "subjectArea" : {
+    "name" : "Reviews",
+    "sourceBusinessModel" : "businessModel:Sample App",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Reviews.Demo"
+    } ]
+  }
+}
